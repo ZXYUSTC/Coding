@@ -1,3 +1,6 @@
+/*
+S形从上到下打印二叉树
+*/
 #include<iostream>
 #include<stack>
 #include<queue>
