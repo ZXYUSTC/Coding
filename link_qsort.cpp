@@ -33,7 +33,7 @@ int main(){
 	Node* head=new Node(9);
 	head->next=new Node(0);
 	head->next->next=new Node(6);
-	head->next->next=new Node(4);
+	head->next->next->next=new Node(4);
 	qsort(head,NULL);
 	Node *p=head;
 	while(p!=NULL){
