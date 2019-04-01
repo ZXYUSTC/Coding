@@ -1,8 +1,8 @@
 # encoding:utf-8
 
 def HeapAdjust(a, size, index):
-    lchild = 2 * index
-    rchild = 2 * index + 1
+    lchild = 2 * index + 1
+    rchild = 2 * index + 2
     max = index
     if (index <= (size - 1) / 2):
         if (lchild <= (size - 1) and a[max] < a[lchild]):
